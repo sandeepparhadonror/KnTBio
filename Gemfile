@@ -35,6 +35,19 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 
+gem 'figaro'
+group :development, :test do
+  gem 'capistrano'
+  gem 'capistrano3-puma'
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rbenv', '~> 2.1'
+end
+
+group :production do
+  gem 'pg'
+end  
+
 gem 'simple_form'
 
 gem 'bootsnap', '>= 1.1.0', require: false
