@@ -77,7 +77,7 @@
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('welcome/fancybox/fancybox_sprite.png') !important;
+	background-image: url('fancybox_sprite.png') !important center no-repeat;
 }
 
 #fancybox-loading {
@@ -95,7 +95,7 @@
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background-image: url('welcome/fancybox/fancybox_loading.gif') center center no-repeat;
+	background-image: url('fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
@@ -136,7 +136,7 @@
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background-image: transparent url('welcome/fancybox/blank.gif'); /* helps IE */
+	background-image: transparent url('blank.gif'); /* helps IE */
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	z-index: 8040;
 }
@@ -220,7 +220,7 @@ background-position-y: -72px;
 	overflow: hidden !important;
 	display: none;
 	z-index: 8010;
-	background-image: url('welcome/fancybox/fancybox_overlay.png');
+	background-image: url('fancybox_overlay.png');
 }
 
 .fancybox-overlay-fixed {
