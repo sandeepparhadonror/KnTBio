@@ -11,6 +11,13 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
+ *= require welcome/animate
+ *= require welcome/bootstrap.min
+ *= require welcome/custom-fonts
+ *= require welcome/flexslider
+ *= require welcome/font-awesome
+ *= require welcome/style
+ *= require welcome/fancybox/jquery.fancybox
  *= require_self
  */
 
