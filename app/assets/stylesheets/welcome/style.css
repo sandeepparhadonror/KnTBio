@@ -324,9 +324,8 @@ text-align: center;}
 .heroText{
 margin-top: -103px;
 }
-/*  Sliders
-==================================== */
-/* --- flexslider --- */
+/*  Sliders */
+/* flexslider  */
 
 #featured .flexslider {
 	padding:0;  
@@ -467,8 +466,7 @@ border-radius:0;
 }
 
 
-/* Testimonial
-----------------------------------*/
+/* Testimonial */
 .testimonial-area {
 padding: 0 0 0 0;
 margin:0;
@@ -492,8 +490,7 @@ section.heroText {
 
 
 
-/* Content
-==================================== */
+/* Content  */
 
 #content {
 	position:relative;
@@ -543,8 +540,7 @@ section.heroText {
 }
 
 
-/* Bottom
-==================================== */
+/* Bottom */
 
 #bottom {
 	background:#fcfcfc;
@@ -580,8 +576,7 @@ section.heroText {
 }
 
 
-/* page headline
-==================================== */
+/* page headline */
 
 #inner-headline{
 	background: #318FCF;
@@ -626,8 +621,7 @@ ul.breadcrumb li a:hover {
 	text-decoration:none;
 }
 
-/* Forms
-============================= */
+/* Forms  */
 
 /* --- contact form  ---- */
 form#contactform input[type="text"] {
@@ -720,8 +714,7 @@ form#commentform textarea {
 
 
 
-/*  Portfolio
-================================ */
+/*  Portfolio */
 
 .work-nav #filters {
 	margin: 0;
@@ -1307,7 +1300,7 @@ background: #FFFFFF;
 	padding:30px 0 30px 0;
 }
  
-/* ===== Widgets ===== */
+/* Widgets ===== */
 
 /* --- flickr --- */
 .widget .flickr_badge {
@@ -1498,7 +1491,6 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
 
 .clear-marginbot{
 	margin-bottom:0;
@@ -1538,8 +1530,7 @@ article img.pull-right, article .align-right{
 }
 
 
-/*  Media queries 
-============================= */
+/*  Media queries  */
 
 @media (min-width: 768px) and (max-width: 979px) {
 
