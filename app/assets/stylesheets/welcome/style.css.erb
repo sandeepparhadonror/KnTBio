@@ -6,8 +6,9 @@ Do not remove the back-link in this web template
 -------------------------------------------------------*/
 
 @import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
-@import url('font-awesome.css');  
-@import url('animate.css');
+@import url(<%= asset_path 'welcome/font-awesome.css.erb' %>);  
+@import url(<%= asset_path 'welcome/animate.css' %>);
+
 
 body {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -470,7 +471,7 @@ border-radius:0;
 .testimonial-area {
 padding: 0 0 0 0;
 margin:0;
-background: url("team1.jpg") fixed center center;
+background: url(<%= asset_path 'welcome/team1.jpg' %>) fixed center center;
 background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -1069,7 +1070,7 @@ footer .widget .social-network {
     color: #8C8C8D;
 }
 .page{
-background: #222222 url('slides/2.jpg') top left no-repeat;
+background: #222222 url(<%= asset_path 'welcome/slides/2.jpg' %>) top left no-repeat;
 background-size: cover;}
 .carousel-indicators li{
 border:1px solid #222;
@@ -1587,7 +1588,7 @@ article img.pull-right, article .align-right{
 		width: 100%;
 	}
 	header .navbar-default {
-       background: #222222 url('slides/2.jpg') top left no-repeat;
+       background: #222222 url(<%= asset_path 'welcome/slides/2.jpg' %>) top left no-repeat;
     background-size: cover;
 }
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover {
