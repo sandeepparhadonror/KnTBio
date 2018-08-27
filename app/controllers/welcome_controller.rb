@@ -6,7 +6,7 @@ class WelcomeController < ApplicationController
 	def contact_form
 		@contact = ContactForm.new(contact_form_params)
 		if @contact.save!
-			flash[:success] = "Thansa for contactigng Us. We Rich to you shortly"
+			flash[:success] = "Thanks for contactigng Us. We riching to you shortly"
 			redirect_to contact_path
 		else
 			render "new"
