@@ -109,6 +109,10 @@ test:
 #
 production:
   <<: *default
+  host: localhost
   database: kntbiology_production
   username: kntbiology
   password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  # create user kntbiology with password 'kntbiology';
+  # create database kntbiology_production owner kntbiology;
+  # alter user kntbiology superuser createrole createdb replication;
