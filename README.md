@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * help : https://github.com/ghoshabhi/Rail-AWS-Config
+
+AWS deploy : help : https://www.sitepoint.com/deploy-your-rails-app-to-aws/
