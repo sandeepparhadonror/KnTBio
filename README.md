@@ -23,4 +23,6 @@ Things you may want to cover:
 
 * help : https://github.com/ghoshabhi/Rail-AWS-Config
 
+# Good : https://www.sitepoint.com/continous-deployment-of-rails-with-semaphoreci/
+
 AWS deploy : help : https://www.sitepoint.com/deploy-your-rails-app-to-aws/
